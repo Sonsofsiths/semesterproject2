@@ -1,0 +1,22 @@
+html, body { font-family: arial, sans-serif; }
+.ok, .nok { padding: 5px; }
+.ok { background: #d7ffe7; }
+.nok { background: #ffd7d7; }
+#userNow { font-weight: bold; }
+#userList { max-width: 400px; }
+.urow {
+  display: flex;
+  padding: 10px;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+.uname { width: 100%; }
+.urow button {
+  width: 120px;
+  padding: 5px;
+  margin-left: 3px;
+  background: #3069d2;
+  color: #fff;
+  border: 0;
+}
